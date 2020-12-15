@@ -363,52 +363,31 @@ It Inherits all properties of the User and it has its own Methods.
 |
 
 
-**ASSOCIATION** |Invention Award ![](RackMultipart20201215-4-64pfk0_html_d131dac293be8d1.gif)Awards Panel
- |
-| --- | --- |
-|
+**ASSOCIATION**
 - One Award can be given to one or more Invention.
 - Panel selects only one winner for a particular Award.
 - One Award can be selected by only One Panel.
 
-
- |
-|
-
-**REALIZATION** | ![](RackMultipart20201215-4-64pfk0_html_1b2e029f36acfb14.gif)
-
-Login Details User |
-|
+**REALIZATION** 
 - **User** implements an interface **Login Details** , thereby inheriting the abstract methods of the  **Login details**.
- |
-|
 
-**GENERALIZATION** | ![](RackMultipart20201215-4-64pfk0_html_c8e96a55b1d25e96.gif)USER Admin ![](RackMultipart20201215-4-64pfk0_html_868c71e82264d4db.gif)Inventor ![](RackMultipart20201215-4-64pfk0_html_f4e49d081f0f342e.gif)Jury Member |
-|
+
+**GENERALIZATION**
 - Admin Inherits the properties of User.
 - Inventor Inherits the properties of User.
 - Jury Member Inherits the properties of User.
- |
-|
 
 
-**DEPENDENCY** | ![](RackMultipart20201215-4-64pfk0_html_90eb49aa08c717c4.gif)Nominations Finalists |
-|
+**DEPENDENCY**
 - Finalists Dependent on the Nominations since an object of Nominations is being used by the Finalists.
- |
-|
 
-**AGGREGATION** | ![](RackMultipart20201215-4-64pfk0_html_919d2dbcfeacb080.gif)Jury Member Panel |
-|
+
+**AGGREGATION**
 - The Jury Member can exist independently of the Panel.
- |
-|
-**COMPOSITION** | ![](RackMultipart20201215-4-64pfk0_html_919d2dbcfeacb080.gif)Invention Inventor |
-|
-- Invention cannot exist without the Inventor.
- |
 
-![](RackMultipart20201215-4-64pfk0_html_c859ed9dc1fa88c3.png)
+**COMPOSITION** 
+- Invention cannot exist without the Inventor.
+
 
 ## **INHERITANCE**
 
@@ -526,38 +505,6 @@ prep.executeUpdate();
 - Again, we mustn&#39;t forget to close the Result Set:
 - rs.close();
 
-![](RackMultipart20201215-4-64pfk0_html_15b131149c9b8e63.jpg)
-
-![](RackMultipart20201215-4-64pfk0_html_1280f82a7e528cdd.jpg)
-
-![](RackMultipart20201215-4-64pfk0_html_28200073ae2d314a.jpg)
-
-![](RackMultipart20201215-4-64pfk0_html_3de4c6dd9ca51ab2.jpg)
-
-![](RackMultipart20201215-4-64pfk0_html_4ef6e37492024aa2.jpg)
-
-![](RackMultipart20201215-4-64pfk0_html_ba8c0dc061ad23f0.jpg)
-
-![](RackMultipart20201215-4-64pfk0_html_1e11a2b2359260df.jpg)
-
-![](RackMultipart20201215-4-64pfk0_html_406dc24b5b41207e.jpg)
-
-![](RackMultipart20201215-4-64pfk0_html_980f00fb5f369bf0.png)
-
-![](RackMultipart20201215-4-64pfk0_html_16f4c4d6874650ce.png)
-
-![](RackMultipart20201215-4-64pfk0_html_eb1329013fba896f.png)
-
-![](RackMultipart20201215-4-64pfk0_html_8226b5f872bc8c64.png)
-
-![](RackMultipart20201215-4-64pfk0_html_83706c59324c292e.png)
-
-![](RackMultipart20201215-4-64pfk0_html_a0a51f56bbbf88be.png)
-
-![](RackMultipart20201215-4-64pfk0_html_8116bdbd2294cfd4.png)
-
-![](RackMultipart20201215-4-64pfk0_html_c784f6d4ad0b6036.png)
-
 ## **SWING**
 
 - A component is an independent visual control and Java Swing Framework contains a large set of these components which provide rich functionalities and allow high level of customization.
@@ -674,78 +621,6 @@ prep.executeUpdate();
 - It is under package javax.swing.JList class.
 - It is used to represent a list of items together.
 - One or more than one item can be selected from the list.
-
-![](RackMultipart20201215-4-64pfk0_html_715942a37b802c67.png)
-
-![](RackMultipart20201215-4-64pfk0_html_acb02fd24dcd6e67.png)
-
-![](RackMultipart20201215-4-64pfk0_html_216a4a1df9c2cc69.png)
-
-![](RackMultipart20201215-4-64pfk0_html_f710171a52cb0e73.png)
-
-![](RackMultipart20201215-4-64pfk0_html_94322312752cbb24.png)
-
-![](RackMultipart20201215-4-64pfk0_html_fe84783ca9243b45.png)
-
-![](RackMultipart20201215-4-64pfk0_html_4e5e953caa86b98f.png)
-
-![](RackMultipart20201215-4-64pfk0_html_33110b9b258f2a6d.png)
-
-![](RackMultipart20201215-4-64pfk0_html_c89aef4bea4f4261.png)
-
-![](RackMultipart20201215-4-64pfk0_html_3a01bda1b045caaf.png)
-
-![](RackMultipart20201215-4-64pfk0_html_27700a2303663af.png)
-
-![](RackMultipart20201215-4-64pfk0_html_be3c44793628dea7.png)
-
-![](RackMultipart20201215-4-64pfk0_html_6b828059e30e78ad.png)
-
-![](RackMultipart20201215-4-64pfk0_html_e2eed3b22b06f87b.png)
-
-![](RackMultipart20201215-4-64pfk0_html_7f50e7473ebd0552.png)
-
-![](RackMultipart20201215-4-64pfk0_html_a51b55ea88959a7e.png)
-
-![](RackMultipart20201215-4-64pfk0_html_a2a65cb8e42df6eb.png)
-
-![](RackMultipart20201215-4-64pfk0_html_56264f828949d690.png)
-
-![](RackMultipart20201215-4-64pfk0_html_addef1e5f3c0cc6b.png)
-
-![](RackMultipart20201215-4-64pfk0_html_bddc2a0cb64aad0e.png)
-
-![](RackMultipart20201215-4-64pfk0_html_f0d1f168094eec95.png)
-
-![](RackMultipart20201215-4-64pfk0_html_82b981a138e4d472.png)
-
-![](RackMultipart20201215-4-64pfk0_html_ee82e98666bc58a4.png)
-
-![](RackMultipart20201215-4-64pfk0_html_2bb686069a195eb0.png)
-
-![](RackMultipart20201215-4-64pfk0_html_e946586807b62c8b.png)
-
-![](RackMultipart20201215-4-64pfk0_html_f61b7cce66c7a4c6.png)
-
-![](RackMultipart20201215-4-64pfk0_html_2f564b6750594bff.png)
-
-![](RackMultipart20201215-4-64pfk0_html_f47b80b242d4cd70.png)
-
-![](RackMultipart20201215-4-64pfk0_html_bb83b3331903d0d8.png)
-
-![](RackMultipart20201215-4-64pfk0_html_f8cb6bfb4d37bb5d.png)
-
-![](RackMultipart20201215-4-64pfk0_html_9c0dffd190d6fee7.png)
-
-![](RackMultipart20201215-4-64pfk0_html_9ab147cafe835c52.png)
-
-![](RackMultipart20201215-4-64pfk0_html_8806a89c077ed19a.png)
-
-![](RackMultipart20201215-4-64pfk0_html_d3a5e1aa1dc866f2.png)
-
-![](RackMultipart20201215-4-64pfk0_html_3c08d25a6d253dd0.png)
-
-![](RackMultipart20201215-4-64pfk0_html_4d862a40a41c13c9.png)
 
 **Done By,**
 
