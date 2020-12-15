@@ -8,10 +8,6 @@
       - Inventor details
       - Awards Received etc.
 
-**UML DIAGRAM:**
-
-![](RackMultipart20201215-4-64pfk0_html_574e478e819eb79.png)
-
 **Structural diagrams:**
 
 - Structural diagrams show the things in the modeled system.
@@ -42,8 +38,6 @@ There are total of Twenty-Six use cases that represent the specific functionalit
 
 Each actor interacts with a particular use case.
 
-![](RackMultipart20201215-4-64pfk0_html_d678d4014d6d5100.png)
-
 **Functionality of Admin:**
 
 - Login to take the overall Control of the Data Base
@@ -54,8 +48,6 @@ Each actor interacts with a particular use case.
 - Declare Results
 - Admin takes the overall control of the database or in other words say one of the primary Actors.
 - Admin have to just login inside the database and gets the overall control.
-
-![](RackMultipart20201215-4-64pfk0_html_c3877af00fae29b3.png)
 
 **Functionality of Inventor Actor:**
 
@@ -74,8 +66,6 @@ Each actor interacts with a particular use case.
 - Inventor can also view the invention details that he/she have enclosed while registering in the database.
 - Inventor can view the results of the invention.
 
-![](RackMultipart20201215-4-64pfk0_html_fe7b88814826b184.png)
-
 **Functionality of Jury Actor:**
 
 - Login to Invention Management System
@@ -87,8 +77,6 @@ Each actor interacts with a particular use case.
 - If they are not able to login successfully then they will get the Error message.
 - From the list of inventions given they can select the allotted invention.
 - They can look into the inventions and award marks to the selected Invention.
-
-![](RackMultipart20201215-4-64pfk0_html_e657b44ad3b4485b.gif)
 
 **Class Diagram:**
 
@@ -115,8 +103,6 @@ Each actor interacts with a particular use case.
 - The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
 - Any other class of the same package will not be able to access these members.
 
-![](RackMultipart20201215-4-64pfk0_html_fb0c399d9efc14bd.png)
-
 - **User** is Implemented from the Interface **Login Details.**
 
 **+ ID:**
@@ -136,7 +122,7 @@ Each actor interacts with a particular use case.
 
 **+ Qualification:**
 
-- An[experience](https://dictionary.cambridge.org/dictionary/english/experience) that makes the user [suitable](https://dictionary.cambridge.org/dictionary/english/suitable) for a [particular](https://dictionary.cambridge.org/dictionary/english/particular) [job](https://dictionary.cambridge.org/dictionary/english/job) or [activity](https://dictionary.cambridge.org/dictionary/english/activity).
+- An experience that makes the user suitable for a particular job or activity
 - It is of type String.
 
 **+ Gender:**
@@ -163,8 +149,6 @@ Each actor interacts with a particular use case.
 
 - Password that each user has to login to his/her account.
 - It is of type String.
-
-![](RackMultipart20201215-4-64pfk0_html_bcaee6b444a62008.png)
 
 Admin class is Inherited from the Parent Class User.
 
@@ -209,8 +193,6 @@ It Inherits all properties of the User and it has its own Methods.
 
 - This method is used to declare Finale results.
 
-![](RackMultipart20201215-4-64pfk0_html_37b3ab04387e31be.png)
-
 **+ Invention\_ID:**
 
 - Unique ID to identify the Invention.
@@ -240,8 +222,6 @@ It Inherits all properties of the User and it has its own Methods.
 **# Marks:**
 
 - Marks that has been awarded for the particular invention by the Jury.
-
-![](RackMultipart20201215-4-64pfk0_html_baa1455ea406053b.png)
 
 **+ Job\_Type:**
 
@@ -301,8 +281,6 @@ It Inherits all properties of the User and it has its own Methods.
 - The sponsor for the prize money is stored in this attribute.
 - This is of type String.
 
-![](RackMultipart20201215-4-64pfk0_html_4e505757f9701e9c.png)
-
 **+ Category**
 
 - The category in the award ceremony where the particular person is part of the jury is stored in this attribute.
@@ -318,8 +296,6 @@ It Inherits all properties of the User and it has its own Methods.
 - It stores the marks that has been awarded for the invention.
 - This takes marks as the parameter which is of type Float.
 - It doesn&#39;t return anything.
-
-![](RackMultipart20201215-4-64pfk0_html_f1c284049e75999c.png)
 
 **+ Panel\_ID**
 
@@ -359,8 +335,6 @@ It Inherits all properties of the User and it has its own Methods.
 - This method is used to find out the qualifying inventions in the preliminary round.
 - The qualifying inventions are returned as a String.
 
-![](RackMultipart20201215-4-64pfk0_html_7ff4620c51926fe4.png)
-
 **+ Invention\_ID**
 
 - This attribute stores the invention ID of the particular invention which has been nominated.
@@ -376,13 +350,9 @@ It Inherits all properties of the User and it has its own Methods.
 - This attribute stores the category of the invention,
 - It is of type String.
 
-![](RackMultipart20201215-4-64pfk0_html_5212e53506ec2417.png)
-
 **+ View\_Nominations:**
 
 - It shows all the nominations of the finalists **.**
-
-![](RackMultipart20201215-4-64pfk0_html_3ee98b9fb42d4f09.png)
 
 **Login:**
 
@@ -393,7 +363,7 @@ It Inherits all properties of the User and it has its own Methods.
 |
 
 
-**ASSOCIATION** | ![](RackMultipart20201215-4-64pfk0_html_c8bdabd182797534.gif)Invention Award ![](RackMultipart20201215-4-64pfk0_html_d131dac293be8d1.gif)Awards Panel
+**ASSOCIATION** |Invention Award ![](RackMultipart20201215-4-64pfk0_html_d131dac293be8d1.gif)Awards Panel
  |
 | --- | --- |
 |
