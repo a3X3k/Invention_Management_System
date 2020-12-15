@@ -1,46 +1,48 @@
-GROUP 10
+## GROUP 10
 
-INVENTION MANAGEMENT SYSTEM
+## INVENTION MANAGEMENT SYSTEM
 
 - The Invention Management System Database is made to store,
-  - Invention details
-  - Inventor details
-  - Awards Received etc.
+
+      - Invention details
+      - Inventor details
+      - Awards Received etc.
 
 **UML DIAGRAM:**
 
-![](1.001.png)
+![](RackMultipart20201215-4-64pfk0_html_574e478e819eb79.png)
 
 **Structural diagrams:**
 
-- Structural diagrams show the things in the modeled system. 
-- In a more technical term, they show different objects in a system. 
+- Structural diagrams show the things in the modeled system.
+- In a more technical term, they show different objects in a system.
 
 **Behavioral diagrams:**
 
-- Behavioral Diagrams show what should happen in a system. 
+- Behavioral Diagrams show what should happen in a system.
 - They describe how the objects interact with each other to create a functioning system.
 
 **Use Case Diagram:**
 
 - Use case diagrams give a graphic overview of the actors involved in a system, different functions needed by those actors and how these different functions interact.
-- It’s a great starting point for any project discussion because you can easily identify the main actors involved and the main processes of the system.
+- It&#39;s a great starting point for any project discussion because you can easily identify the main actors involved and the main processes of the system.
 - This Use Case Diagram depicts the High-level view of the Invention Management system.
 - It also provides the scenarios in which the application interacts with,
-  - Inventor
-  - Jury
-  - Admin
 
-|**Actor Category**|**Actor**|
-| :-: | :-: |
-|Primary Actor|Jury, Admin|
-|Secondary Actor|Inventor|
+      - Inventor
+      - Jury
+      - Admin
 
-There are total of Twenty-Six use cases that represent the specific functionality of Invention Management System. 
+| **Actor Category** | **Actor** |
+| --- | --- |
+| Primary Actor | Jury, Admin |
+| Secondary Actor | Inventor |
 
-Each actor interacts with a particular use case. 
+There are total of Twenty-Six use cases that represent the specific functionality of Invention Management System.
 
-![](1.002.png)
+Each actor interacts with a particular use case.
+
+![](RackMultipart20201215-4-64pfk0_html_d678d4014d6d5100.png)
 
 **Functionality of Admin:**
 
@@ -53,14 +55,14 @@ Each actor interacts with a particular use case. 
 - Admin takes the overall control of the database or in other words say one of the primary Actors.
 - Admin have to just login inside the database and gets the overall control.
 
-![](1.003.png)
+![](RackMultipart20201215-4-64pfk0_html_c3877af00fae29b3.png)
 
 **Functionality of Inventor Actor:**
 
 - Register in the database to create Account
 - Register for New Username and Password
 - Login using his/her credentials
-- Add the details of his/her invention 
+- Add the details of his/her invention
 - View the Invention details
 - View Awards
 - View Nominations
@@ -72,7 +74,7 @@ Each actor interacts with a particular use case. 
 - Inventor can also view the invention details that he/she have enclosed while registering in the database.
 - Inventor can view the results of the invention.
 
-![](1.004.png)
+![](RackMultipart20201215-4-64pfk0_html_fe7b88814826b184.png)
 
 **Functionality of Jury Actor:**
 
@@ -86,34 +88,34 @@ Each actor interacts with a particular use case. 
 - From the list of inventions given they can select the allotted invention.
 - They can look into the inventions and award marks to the selected Invention.
 
-![](1.005.png)
+![](RackMultipart20201215-4-64pfk0_html_e657b44ad3b4485b.gif)
 
 **Class Diagram:**
 
-- Class diagrams are the main building block of any object-oriented solution. 
+- Class diagrams are the main building block of any object-oriented solution.
 - It shows the classes in a system, attributes, and operations of each class and the relationship between each class.
-- In most modeling tools, a class has three parts. 
-- Name at the top, attributes in the middle and operations or methods at the bottom. 
-- In a large system with many related classes, classes are grouped together to create class diagrams. 
-- Different relationships between classes are shown by different types of arrows.
+- In most modeling tools, a class has three parts.
+- Name at the top, attributes in the middle and operations or methods at the bottom.
+- In a large system with many related classes, classes are grouped together to create class diagrams.
+- Different relationships between classes are shown by different types of arrows.
 
 **Public (+):**
 
-- Public members are visible to all other classes. 
-- This means that any other class can access a public field or method. 
-- Further, other classes can modify public fields unless the field is declared as final.
+- Public members are visible to all other classes.
+- This means that any other class can access a public field or method.
+- Further, other classes can modify public fields unless the field is declared as final.
 
 **Protected (#):**
 
-- The **protected** keyword is an access modifier used for attributes, methods and constructors, making them accessible in the same package and subclasses.
+- The  **protected**  keyword is an access modifier used for attributes, methods and constructors, making them accessible in the same package and subclasses.
 
 **Private (-):**
 
-- The methods or data members declared as private are accessible only within the class in which they are declared. 
+- The methods or data members declared as private are accessible only within the class in which they are declared.
 - The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
-- Any other class of the same package will not be able to access these members.
+- Any other class of the same package will not be able to access these members.
 
-![](1.006.png)
+![](RackMultipart20201215-4-64pfk0_html_fb0c399d9efc14bd.png)
 
 - **User** is Implemented from the Interface **Login Details.**
 
@@ -124,7 +126,7 @@ Each actor interacts with a particular use case. 
 
 **+ Name:**
 
-- Name of the User. 
+- Name of the User.
 - It is of type String.
 
 **+ Country:**
@@ -134,7 +136,7 @@ Each actor interacts with a particular use case. 
 
 **+ Qualification:**
 
-- An [experience](https://dictionary.cambridge.org/dictionary/english/experience "experience") that makes the user [suitable](https://dictionary.cambridge.org/dictionary/english/suitable "suitable") for a [particular](https://dictionary.cambridge.org/dictionary/english/particular "particular") [job](https://dictionary.cambridge.org/dictionary/english/job "job") or [activity](https://dictionary.cambridge.org/dictionary/english/activity "activity").
+- An[experience](https://dictionary.cambridge.org/dictionary/english/experience) that makes the user [suitable](https://dictionary.cambridge.org/dictionary/english/suitable) for a [particular](https://dictionary.cambridge.org/dictionary/english/particular) [job](https://dictionary.cambridge.org/dictionary/english/job) or [activity](https://dictionary.cambridge.org/dictionary/english/activity).
 - It is of type String.
 
 **+ Gender:**
@@ -154,7 +156,7 @@ Each actor interacts with a particular use case. 
 
 **# Username:**
 
-- Unique Username that each user has to login to his/her account. 
+- Unique Username that each user has to login to his/her account.
 - It is of type String.
 
 **# Password:**
@@ -162,7 +164,7 @@ Each actor interacts with a particular use case. 
 - Password that each user has to login to his/her account.
 - It is of type String.
 
-![](1.007.png)
+![](RackMultipart20201215-4-64pfk0_html_bcaee6b444a62008.png)
 
 Admin class is Inherited from the Parent Class User.
 
@@ -172,30 +174,31 @@ It Inherits all properties of the User and it has its own Methods.
 
 - This Method is used to add the available Awards to the DataBase.
 - These Awards will be given to the Inventor based on their Invention.
-- It doesn’t take any parameter and doesn’t return anything.
+- It doesn&#39;t take any parameter and doesn&#39;t return anything.
 - It just asks for the name of the Award that has to added when it is called.
-
 
 **- Remove\_Awards():**
 
 - This method is used to remove the Awards from the DataBase.
-- It doesn’t take any parameter and doesn’t return anything.
+
+- It doesn&#39;t take any parameter and doesn&#39;t return anything.
 
 **- Add\_Jury\_Members():**
 
 - This Method is used to add the details of the Jury Members to the DataBase.
-- It doesn’t take any parameter and doesn’t return anything.
+- It doesn&#39;t take any parameter and doesn&#39;t return anything.
 - It just asks for the details of the Jury that has to added when it is called.
 
 **- Remove\_Jury\_Members():**
 
 - This method is used to remove the details of the Jury Members from the DataBase.
-- It doesn’t take any parameter and doesn’t return anything.
+
+- It doesn&#39;t take any parameter and doesn&#39;t return anything.
 
 **- Add\_Panel():**
 
 - This Method is used to add the Panel to the DataBase.
-- It doesn’t take any parameter and doesn’t return anything.
+- It doesn&#39;t take any parameter and doesn&#39;t return anything.
 - It just asks for the details of the Panel that has to added when it is called.
 
 **- Declare\_Finalists():**
@@ -206,7 +209,7 @@ It Inherits all properties of the User and it has its own Methods.
 
 - This method is used to declare Finale results.
 
-![](1.008.png)
+![](RackMultipart20201215-4-64pfk0_html_37b3ab04387e31be.png)
 
 **+ Invention\_ID:**
 
@@ -226,6 +229,7 @@ It Inherits all properties of the User and it has its own Methods.
 **+ Year\_Of\_Invention:**
 
 - Year in which the invention has been invented.
+
 - It is of type Integer.
 
 **+ Story\_Behind:**
@@ -237,7 +241,7 @@ It Inherits all properties of the User and it has its own Methods.
 
 - Marks that has been awarded for the particular invention by the Jury.
 
-![](1.009.png)
+![](RackMultipart20201215-4-64pfk0_html_baa1455ea406053b.png)
 
 **+ Job\_Type:**
 
@@ -254,11 +258,11 @@ It Inherits all properties of the User and it has its own Methods.
 - This attribute stores the years of experience of the inventor.
 - It is of type integer(int).
 
-**-  Add\_Invention()**
+**- Add\_Invention()**
 
 - Using this method, we add the inventions of the inventor which has been nominated to the database.
 
-**-  View\_Nomination()**
+**- View\_Nomination()**
 
 - This method displays the inventions of the inventor which have been nominated.
 
@@ -270,7 +274,7 @@ It Inherits all properties of the User and it has its own Methods.
 
 - This method is used to add the details of the invention into the database.
 
-![](1.010.png)
+![](RackMultipart20201215-4-64pfk0_html_5759586dcf0e8fa7.png)
 
 **+ Award\_ID**
 
@@ -297,7 +301,7 @@ It Inherits all properties of the User and it has its own Methods.
 - The sponsor for the prize money is stored in this attribute.
 - This is of type String.
 
-![](1.011.png)
+![](RackMultipart20201215-4-64pfk0_html_4e505757f9701e9c.png)
 
 **+ Category**
 
@@ -313,9 +317,9 @@ It Inherits all properties of the User and it has its own Methods.
 
 - It stores the marks that has been awarded for the invention.
 - This takes marks as the parameter which is of type Float.
-- It doesn’t return anything.
+- It doesn&#39;t return anything.
 
-![](1.012.png)
+![](RackMultipart20201215-4-64pfk0_html_f1c284049e75999c.png)
 
 **+ Panel\_ID**
 
@@ -355,7 +359,7 @@ It Inherits all properties of the User and it has its own Methods.
 - This method is used to find out the qualifying inventions in the preliminary round.
 - The qualifying inventions are returned as a String.
 
-![](1.013.png)
+![](RackMultipart20201215-4-64pfk0_html_7ff4620c51926fe4.png)
 
 **+ Invention\_ID**
 
@@ -372,47 +376,81 @@ It Inherits all properties of the User and it has its own Methods.
 - This attribute stores the category of the invention,
 - It is of type String.
 
-![](1.014.png)
+![](RackMultipart20201215-4-64pfk0_html_5212e53506ec2417.png)
 
 **+ View\_Nominations:**
-- **
-  ` `It shows all the nominations of the finalists**.**
 
-![](1.015.png)
+- It shows all the nominations of the finalists **.**
+
+![](RackMultipart20201215-4-64pfk0_html_3ee98b9fb42d4f09.png)
 
 **Login:**
 
 - This takes the Username and Password as arguments which is of type String.
-- It doesn’t return anything.
+- It doesn&#39;t return anything.
 - Using this credential, the user can login to the Portal/System.
 
-
-|<p></p><p></p><p></p><p></p><p></p><p>**ASSOCIATION**</p>|<p>![](1.016.png)Invention          Award</p><p>` `Awards          Panel</p><p>` `Awards          Panel</p><p></p>|
-| :- | :-: |
-||<p>- One Award can be given to one or more Invention.</p><p>- Panel selects only one winner for a particular Award.</p><p>- One Award can be selected by only One Panel.</p><p></p><p></p>|
-|<p></p><p></p><p>**REALIZATION**</p>|<p>` `Login Details          User</p><p>` `Login Details          User</p>|
-||- **User** implements an interface **Login Details**, thereby inheriting the abstract methods of the **Login details**. |
-|<p></p><p></p><p></p><p></p><p>**GENERALIZATION**</p>|<p>` `USER           Admin</p><p>` `USER           Admin</p><p>`                         `Inventor</p><p>`                         `Inventor</p><p>`                                  `Jury Member</p><p>`                                  `Jury Member</p>|
-||<p>- Admin Inherits the properties of User.</p><p>- Inventor Inherits the properties of User.</p><p>- Jury Member Inherits the properties of User.</p>|
-|<p></p><p></p><p></p><p>**DEPENDENCY**</p>|<p>` `Nominations         Finalists</p><p>` `Nominations         Finalists</p>|
-||- Finalists Dependent on the Nominations since an object of Nominations is being used by the Finalists.|
-|<p></p><p></p><p>**AGGREGATION**</p>|![](1.023.png)Jury Member         Panel|
-||- The Jury Member can exist independently of the Panel.|
-|<p></p><p>**COMPOSITION**</p>|![](1.023.png)Invention          Inventor|
-||- Invention cannot exist without the Inventor.|
+|
 
 
-![](1.024.png)
+**ASSOCIATION** | ![](RackMultipart20201215-4-64pfk0_html_c8bdabd182797534.gif)Invention Award ![](RackMultipart20201215-4-64pfk0_html_d131dac293be8d1.gif)Awards Panel
+ |
+| --- | --- |
+|
+- One Award can be given to one or more Invention.
+- Panel selects only one winner for a particular Award.
+- One Award can be selected by only One Panel.
 
 
-**INHERITANCE**
+ |
+|
 
-- Here user is the parent class and it has three child class or sub class. 
-  - Admin
-  - Inventor
-  - Jury Members
-- User have all data members and attributes that are common to all three sub classes. 
-- Here the basic Details are taken as the common attributes and made the sub classes to inherit from the parent class. 
+**REALIZATION** | ![](RackMultipart20201215-4-64pfk0_html_1b2e029f36acfb14.gif)
+
+Login Details User |
+|
+- **User** implements an interface **Login Details** , thereby inheriting the abstract methods of the  **Login details**.
+ |
+|
+
+**GENERALIZATION** | ![](RackMultipart20201215-4-64pfk0_html_c8e96a55b1d25e96.gif)USER Admin ![](RackMultipart20201215-4-64pfk0_html_868c71e82264d4db.gif)Inventor ![](RackMultipart20201215-4-64pfk0_html_f4e49d081f0f342e.gif)Jury Member |
+|
+- Admin Inherits the properties of User.
+- Inventor Inherits the properties of User.
+- Jury Member Inherits the properties of User.
+ |
+|
+
+
+**DEPENDENCY** | ![](RackMultipart20201215-4-64pfk0_html_90eb49aa08c717c4.gif)Nominations Finalists |
+|
+- Finalists Dependent on the Nominations since an object of Nominations is being used by the Finalists.
+ |
+|
+
+**AGGREGATION** | ![](RackMultipart20201215-4-64pfk0_html_919d2dbcfeacb080.gif)Jury Member Panel |
+|
+- The Jury Member can exist independently of the Panel.
+ |
+|
+**COMPOSITION** | ![](RackMultipart20201215-4-64pfk0_html_919d2dbcfeacb080.gif)Invention Inventor |
+|
+- Invention cannot exist without the Inventor.
+ |
+
+![](RackMultipart20201215-4-64pfk0_html_c859ed9dc1fa88c3.png)
+
+## **INHERITANCE**
+
+- Here user is the parent class and it has three child class or sub class.
+
+      - Admin
+      - Inventor
+      - Jury Members
+- User have all data members and attributes that are common to all three sub classes.
+
+- Here the basic Details are taken as the common attributes and made the sub classes to inherit from the parent class.
+
 - ID
 - Name
 - Country
@@ -423,64 +461,73 @@ It Inherits all properties of the User and it has its own Methods.
 - Username
 - Password
 
-The common operation for admin, inventor, jury members is that all have to login to the portal before entering into the database. 
+The common operation for admin, inventor, jury members is that all have to login to the portal before entering into the database.
 
-- So, login operation and it's common attributes are included in the parent class.
+- So, login operation and it&#39;s common attributes are included in the parent class.
 - All those three actors can view both the Invention and Award details.
 
-**STATIC**
+## **STATIC**
 
 - Here we have used static variable to differentiate the ADMIN and the JURY.
 - Here we have declared as if the flag is 1 then the admin class will be triggered and all functionalities associated with the admin will be visible.
 - If the flag is 0 then the jury class will be triggered and all functionalities associated with the jury will be visible.
 - Static holds the same value in all places and thus it is helpful in interacting with different object.
 
-**OVER RIDING**
+## **OVER RIDING**
 
 - If a subclass provides the specific implementation of the method that has been declared by one of its parent class, it is known as method overriding.
 - Here we have used over riding concept in the operations **viewnomination()** and **viewawards()** rather than declaring them individually.
 - This improves readability and helps in better implementation.
 
-**JDBC**
+## **JDBC**
 
 - JDBC stands for Java Database Connectivity, which is a standard Java API for database-independent connectivity between the Java programming language and a wide range of databases.
 - The JDBC library includes APIs for each of the tasks mentioned below that are commonly associated with database usage.
 - Making a connection to a database.
 - Creating SQL statements.
 - Executing SQL queries in the database.
-- Viewing & Modifying the resulting records.
+- Viewing &amp; Modifying the resulting records.
+
+##
 ## **Create a Connection**
+
 - Before doing any work, we must create a connection to the database:
-- **Class.forName("org.postgresql.Driver");**
-- **Connection c = DriverManager.getConnection("jdbc: postgresql:DATABASELOCATION");**
-- Replace **DATABASELOCATION** with the (preferably relative) path to your database file.
+- **Class****.****forName(****&quot; ****org.postgresql.Driver****&quot;****);**
+- **Connection**  **c**  **=**** DriverManager ****.**** getConnection( ****&quot;**** jdbc: ****postgresql**** :DATABASELOCATION ****&quot;**** );**
+- Replace _ **DATABASELOCATION** _with the (preferably relative) path to your database file.
+
 ## **Close a Connection**
+
 After finishing working with the database, we must close its connection:
 
 c.close();
+
 ## **Using Statements**
+
 - Statements can be used to make updates, like this INSERT:
 - Statement stmt = c.createStatement();
-- String sql = "INSERT INTO employees (name, salary, address) "+ "VALUES ('" + name + "', " + salary + ", '" + address + "')";
+- String sql =&quot;INSERT INTO employees (name, salary, address) &quot;+&quot;VALUES (&#39;&quot;+ name +&quot;&#39;, &quot;+ salary +&quot;, &#39;&quot;+ address +&quot;&#39;)&quot;;
 - stmt.executeUpdate(sql);
 
 **Or queries, like this SELECT:**
 
 - Statement stmt = c.createStatement();
-- String sql = "SELECT \* FROM employees";
+- String sql =&quot;SELECT \* FROM employees&quot;;
 - ResultSet rs = stmt.executeQuery(sql);
 - When making queries, the results are returned as a Result Set.
 - We must always remember to close the Statement:
 - stmt.close();
+
 ## **Prepared Statements**
-- Statements **are not recommended** for queries, and they can't be used at all for queries that include anything other than INTEGERs, REALs or TEXTs. 
-- In this situation, and when we're concerned about security, we use **Prepared Statements**.
+
+- Statements  **are not recommended**  for queries, and they can&#39;t be used at all for queries that include anything other than INTEGERs, REALs or TEXTs.
+- In this situation, and when we&#39;re concerned about security, we use  **Prepared Statements**.
 - Prepared Statements can be used to make updates, like this INSERT:
-- String sql = "INSERT INTO employees (name, phone, salary, dob, photo) "+ "VALUES (?,?,?,?,?)";
+- String sql =&quot;INSERT INTO employees (name, phone, salary, dob, photo) &quot;+&quot;VALUES (?,?,?,?,?)&quot;;
 
 PreparedStatement prep = c.prepareStatement(sql);
 
-prep.setString(1, "Bob");
+prep.setString(1, &quot;Bob&quot;);
 
 prep.setInt(2, 666666666);
 
@@ -492,236 +539,243 @@ prep.setBytes(5, aBytesArray);
 
 prep.executeUpdate();
 
-
 **Or queries, like this SELECT:**
 
-- String sql = "SELECT \* FROM employees WHERE name LIKE ?";
+- String sql =&quot;SELECT \* FROM employees WHERE name LIKE ?&quot;;
 - PreparedStatement prep = c.prepareStatement(sql);
-- prep.setString(1, "%XYZ%");
+- prep.setString(1, &quot;%XYZ%&quot;);
 - ResultSet rs = prep.executeQuery();
 - Again, when making queries, the results are returned as a Result Set.
 - As always, rememeber to close the Prepared Statement:
 - prep.close();
+
 ## **Processing Result Sets**
-- When making queries, either with Statements or Prepared Statements, the results are returned as a Result Set. 
+
+- When making queries, either with Statements or Prepared Statements, the results are returned as a Result Set.
 - We can iterate over a Result Set and access its contents:
-- Again, we mustn't forget to close the Result Set:
+- Again, we mustn&#39;t forget to close the Result Set:
 - rs.close();
 
+![](RackMultipart20201215-4-64pfk0_html_15b131149c9b8e63.jpg)
 
-![](1.025.jpeg)
+![](RackMultipart20201215-4-64pfk0_html_1280f82a7e528cdd.jpg)
 
-![](1.026.jpeg)
+![](RackMultipart20201215-4-64pfk0_html_28200073ae2d314a.jpg)
 
-![](1.027.jpeg)
+![](RackMultipart20201215-4-64pfk0_html_3de4c6dd9ca51ab2.jpg)
 
-![](1.028.jpeg)
+![](RackMultipart20201215-4-64pfk0_html_4ef6e37492024aa2.jpg)
 
-![](1.029.jpeg)
+![](RackMultipart20201215-4-64pfk0_html_ba8c0dc061ad23f0.jpg)
 
-![](1.030.jpeg)
+![](RackMultipart20201215-4-64pfk0_html_1e11a2b2359260df.jpg)
 
-![](1.031.jpeg)
+![](RackMultipart20201215-4-64pfk0_html_406dc24b5b41207e.jpg)
 
-![](1.032.jpeg)
+![](RackMultipart20201215-4-64pfk0_html_980f00fb5f369bf0.png)
 
-![](1.033.png)
+![](RackMultipart20201215-4-64pfk0_html_16f4c4d6874650ce.png)
 
+![](RackMultipart20201215-4-64pfk0_html_eb1329013fba896f.png)
 
-![](1.034.png)
+![](RackMultipart20201215-4-64pfk0_html_8226b5f872bc8c64.png)
 
+![](RackMultipart20201215-4-64pfk0_html_83706c59324c292e.png)
 
-![](1.035.png)
+![](RackMultipart20201215-4-64pfk0_html_a0a51f56bbbf88be.png)
 
-![](1.036.png)
+![](RackMultipart20201215-4-64pfk0_html_8116bdbd2294cfd4.png)
 
+![](RackMultipart20201215-4-64pfk0_html_c784f6d4ad0b6036.png)
 
-![](1.037.png)
+## **SWING**
 
-
-![](1.038.png)
-
-![](1.039.png)
-
-
-![](1.040.png)
-
-
-
-**SWING**
-
-- A component is an independent visual control and Java Swing Framework contains a large set of these components which provide rich functionalities and allow high level of customization. 
-- They all are derived from JComponent class. 
-- All these components are lightweight components. 
+- A component is an independent visual control and Java Swing Framework contains a large set of these components which provide rich functionalities and allow high level of customization.
+- They all are derived from JComponent class.
+- All these components are lightweight components.
 - This class provides some common functionality like pluggable look and feel, support for accessibility, drag and drop, layout, etc.
-- A container holds a group of components. 
+- A container holds a group of components.
 - It provides a space where a component can be managed and displayed. Containers are of two types.
+
 1. **Top level Containers**
-   1. It inherits Component and Container of AWT.
-   1. It cannot be contained within other containers.
-   1. Heavyweight.
-   1. **Example:** JFrame, JDialog.
-1. **Lightweight Containers**
-   1. It inherits JComponent class.
-   1. It is a general purpose container.
-   1. It can be used to organize related components together.
-   1. **Example:** JPanel
+  - It inherits Component and Container of AWT.
+  - It cannot be contained within other containers.
+  - Heavyweight.
+  - **Example:** JFrame, JDialog.
+2. **Lightweight Containers**
+  - It inherits JComponent class.
+  - It is a general purpose container.
+  - It can be used to organize related components together.
+  - **Example:** JPanel
 
 **JFrame:**
 
-- new JFrame(String title)make a new frame with optional title 
-- setVisible(true)make a frame appear on the screen 
-- add(Component comp) place the given component or container inside the frame 
-- setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE) make it so that the program exits when the frame is closed 
+- new JFrame(String title)make a new frame with optional title
+- setVisible(true)make a frame appear on the screen
+- add(Component comp) place the given component or container inside the frame
+- setDefaultCloseOperation(JFrame.EXIT\_ON\_CLOSE) make it so that the program exits when the frame is closed
 - setSize(int width, int height) gives the frame a fixed size in pixels
 
 **JDialog**
 
 - new JDialog(Frame parent, String title, boolean modal)make a new JDialog with given parent and title. If modalis set, the parent will be locked until the dialog is closed
 - JOptionPane.showMessageDialog(parent, message) static method to pop up a dialog with just a message and OK button
-- JOptionPane.showConfirmDialog(parent, message) static method to pop up a dialog with a message and Yes and No buttons 
+- JOptionPane.showConfirmDialog(parent, message) static method to pop up a dialog with a message and Yes and No buttons
 - JOptionPane.showInputDialog(parent, message) static method to pop a dialog with a message and a textfield for entering information
 
 **JLabel**
 
 - new JLabel(String text)creates a new label with the given text
-- getText()returns the text showing on the label 
-- setText()sets label’s text JButton
+- getText()returns the text showing on the label
+- setText()sets label&#39;s text JButton
 - new JButton(String text) creates a new button with text
-- getText()returns the text showing on the button 
-- setText(String text)sets button’stext
-- new JTextArea(int lines, int columns) create a new text area with preferred size for the given number of lines and columns JTextField 
+- getText()returns the text showing on the button
+- setText(String text)sets button&#39;stext
+- new JTextArea(int lines, int columns) create a new text area with preferred size for the given number of lines and columns JTextField
 - new JTextField(int columns)create a new field, the given number of columns wide.
 
-**Event:** 
+**Event:**
 
 - Event Object that contains detailed information about the event
-- getSource() returns a reference to the object to which the event occurred 
+
+- getSource() returns a reference to the object to which the event occurred
 
 **ActionEvent:**
 
-- getActionCommand() returns the command string associated with this action. 
+- getActionCommand() returns the command string associated with this action.
 - getWhen()returns a timestamp of when this event occurred.
 
 **Listener:**
 
-- Listener Object that can be attached to a component to listen for events. 
+- Listener Object that can be attached to a component to listen for events.
 - Contains a method that is automatically called when an event occurs.
 
 **Swing JButton**
 
-- JButton class provides functionality of a button. 
-- It is used to create button component. 
-### **JTextField**
-- JTextField is used for taking input of single line of text. It is most widely used text component. 
-### **JCheckBox**
+- JButton class provides functionality of a button.
+- It is used to create button component.
+
+### JTextField
+
+- JTextField is used for taking input of single line of text. It is most widely used text component.
+
+### JCheckBox
+
 - The JcheckBox class is used to create checkbox in swing framework.
-### **JRadioButton**
-- Radio button is a group of related button in which only one can be selected. 
-- JRadioButton class is used to create a radio button in Frames. 
-### **JComboBox**
+
+### JRadioButton
+
+- Radio button is a group of related button in which only one can be selected.
+- JRadioButton class is used to create a radio button in Frames.
+
+### JComboBox
+
 - Combo box is a combination of text fields and drop-down list.
-- JComboBox component is used to create a combo box in Swing. 
-### **JLabel**
-- In Java, Swingtoolkit contains a JLabel Class. 
-- It is under package javax.swing.JLabel class. 
-- It is used for placing text in a box. 
+- JComboBox component is used to create a combo box in Swing.
+
+### JLabel
+
+- In Java, Swingtoolkit contains a JLabel Class.
+- It is under package javax.swing.JLabel class.
+- It is used for placing text in a box.
 - Only Single line text is allowed and the text cannot be changed directly.
-### **JTextArea**
-- In Java, Swing toolkit contains a JTextArea Class. 
-- It is under package javax.swing.JTextArea class. 
+
+### JTextArea
+
+- In Java, Swing toolkit contains a JTextArea Class.
+- It is under package javax.swing.JTextArea class.
 - It is used for displaying multiple-line text.
-### **JPasswordField**
-- In Java, Swing toolkit contains a JPasswordField Class. 
-- It is under package javax.swing.JPasswordField class. 
+
+### JPasswordField
+
+- In Java, Swing toolkit contains a JPasswordField Class.
+- It is under package javax.swing.JPasswordField class.
 - It is specifically used for password and it can be edited.
-### **JTable**
-- In Java, Swing toolkit contains a JTable Class. 
-- It is under package javax.swing.JTable class. 
+
+### JTable
+
+- In Java, Swing toolkit contains a JTable Class.
+- It is under package javax.swing.JTable class.
 - It used to draw a table to display data.
-### **JList**
-- In Java, Swing toolkit contains a JList Class. 
-- It is under package javax.swing.JList class. 
-- It is used to represent a list of items together. 
+
+### JList
+
+- In Java, Swing toolkit contains a JList Class.
+- It is under package javax.swing.JList class.
+- It is used to represent a list of items together.
 - One or more than one item can be selected from the list.
 
-![](1.041.png)
+![](RackMultipart20201215-4-64pfk0_html_715942a37b802c67.png)
 
-![](1.042.png)
+![](RackMultipart20201215-4-64pfk0_html_acb02fd24dcd6e67.png)
 
-![](1.043.png)
+![](RackMultipart20201215-4-64pfk0_html_216a4a1df9c2cc69.png)
 
-![](1.044.png)
+![](RackMultipart20201215-4-64pfk0_html_f710171a52cb0e73.png)
 
-![](1.045.png)
+![](RackMultipart20201215-4-64pfk0_html_94322312752cbb24.png)
 
-![](1.046.png)
+![](RackMultipart20201215-4-64pfk0_html_fe84783ca9243b45.png)
 
-![](1.047.png)
+![](RackMultipart20201215-4-64pfk0_html_4e5e953caa86b98f.png)
 
-![](1.048.png)
+![](RackMultipart20201215-4-64pfk0_html_33110b9b258f2a6d.png)
 
-![](1.049.png)
+![](RackMultipart20201215-4-64pfk0_html_c89aef4bea4f4261.png)
 
-![](1.050.png)
+![](RackMultipart20201215-4-64pfk0_html_3a01bda1b045caaf.png)
 
-![](1.051.png)
+![](RackMultipart20201215-4-64pfk0_html_27700a2303663af.png)
 
-![](1.052.png)
+![](RackMultipart20201215-4-64pfk0_html_be3c44793628dea7.png)
 
-![](1.053.png)
+![](RackMultipart20201215-4-64pfk0_html_6b828059e30e78ad.png)
 
-![](1.054.png)
+![](RackMultipart20201215-4-64pfk0_html_e2eed3b22b06f87b.png)
 
-![](1.055.png)
+![](RackMultipart20201215-4-64pfk0_html_7f50e7473ebd0552.png)
 
+![](RackMultipart20201215-4-64pfk0_html_a51b55ea88959a7e.png)
 
-![](1.056.png)
+![](RackMultipart20201215-4-64pfk0_html_a2a65cb8e42df6eb.png)
 
+![](RackMultipart20201215-4-64pfk0_html_56264f828949d690.png)
 
-![](1.057.png)
+![](RackMultipart20201215-4-64pfk0_html_addef1e5f3c0cc6b.png)
 
-![](1.058.png)
+![](RackMultipart20201215-4-64pfk0_html_bddc2a0cb64aad0e.png)
 
-![](1.059.png)
+![](RackMultipart20201215-4-64pfk0_html_f0d1f168094eec95.png)
 
-![](1.060.png)
+![](RackMultipart20201215-4-64pfk0_html_82b981a138e4d472.png)
 
-![](1.061.png)
+![](RackMultipart20201215-4-64pfk0_html_ee82e98666bc58a4.png)
 
+![](RackMultipart20201215-4-64pfk0_html_2bb686069a195eb0.png)
 
-![](1.062.png)
+![](RackMultipart20201215-4-64pfk0_html_e946586807b62c8b.png)
 
-![](1.063.png)
+![](RackMultipart20201215-4-64pfk0_html_f61b7cce66c7a4c6.png)
 
+![](RackMultipart20201215-4-64pfk0_html_2f564b6750594bff.png)
 
-![](1.064.png)
+![](RackMultipart20201215-4-64pfk0_html_f47b80b242d4cd70.png)
 
-![](1.043.png)
+![](RackMultipart20201215-4-64pfk0_html_bb83b3331903d0d8.png)
 
+![](RackMultipart20201215-4-64pfk0_html_f8cb6bfb4d37bb5d.png)
 
-![](1.065.png)
+![](RackMultipart20201215-4-64pfk0_html_9c0dffd190d6fee7.png)
 
-![](1.066.png)** 
+![](RackMultipart20201215-4-64pfk0_html_9ab147cafe835c52.png)
 
-![](1.067.png)
+![](RackMultipart20201215-4-64pfk0_html_8806a89c077ed19a.png)
 
-![](1.068.png)
+![](RackMultipart20201215-4-64pfk0_html_d3a5e1aa1dc866f2.png)
 
-![](1.069.png)
+![](RackMultipart20201215-4-64pfk0_html_3c08d25a6d253dd0.png)
 
-![](1.070.png)
-
-![](1.071.png)
-
-
-![](1.072.png)
-
-![](1.073.png)
-
-![](1.074.png)
-
-![](1.075.png)
+![](RackMultipart20201215-4-64pfk0_html_4d862a40a41c13c9.png)
 
 **Done By,**
 
@@ -730,6 +784,4 @@ prep.executeUpdate();
 - Harsha Sathish – AM.EN.U4CSE19123
 - Arvind Kumar K – AM.EN.U4CSE19109
 
-
-**THANKYOU!!!**
-
+# **THANKYOU!!!**
