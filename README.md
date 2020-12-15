@@ -254,8 +254,6 @@ It Inherits all properties of the User and it has its own Methods.
 
 - This method is used to add the details of the invention into the database.
 
-![](RackMultipart20201215-4-64pfk0_html_5759586dcf0e8fa7.png)
-
 **+ Award\_ID**
 
 - This attribute is used to store the id of the award.
@@ -360,9 +358,6 @@ It Inherits all properties of the User and it has its own Methods.
 - It doesn&#39;t return anything.
 - Using this credential, the user can login to the Portal/System.
 
-|
-
-
 **ASSOCIATION**
 - One Award can be given to one or more Invention.
 - Panel selects only one winner for a particular Award.
@@ -371,23 +366,19 @@ It Inherits all properties of the User and it has its own Methods.
 **REALIZATION** 
 - **User** implements an interface **Login Details** , thereby inheriting the abstract methods of the  **Login details**.
 
-
 **GENERALIZATION**
 - Admin Inherits the properties of User.
 - Inventor Inherits the properties of User.
 - Jury Member Inherits the properties of User.
 
-
 **DEPENDENCY**
 - Finalists Dependent on the Nominations since an object of Nominations is being used by the Finalists.
-
 
 **AGGREGATION**
 - The Jury Member can exist independently of the Panel.
 
 **COMPOSITION** 
 - Invention cannot exist without the Inventor.
-
 
 ## **INHERITANCE**
 
