@@ -1,6 +1,6 @@
 package features;
 
-import sample.*;
+import GUI.*;
 
 public class user implements details 
 {
@@ -31,7 +31,7 @@ public class user implements details
 	}
 	public void viewAwards()
 	{
-		new sample.awards();
+		new GUI.awards();
 	}
 
 }

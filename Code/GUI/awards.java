@@ -1,4 +1,4 @@
-package sample;
+package GUI;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -60,7 +60,7 @@ public class awards implements ActionListener {
     	try 
     	{
     		Class.forName("org.postgresql.Driver");
-    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPS", "postgres", "1");
+    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
     		st = con.createStatement();
 			String query = "SELECT * FROM AWARDS;";
 			rs = st.executeQuery(query);

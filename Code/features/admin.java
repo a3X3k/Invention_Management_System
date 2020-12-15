@@ -10,7 +10,7 @@ import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 
-import sample.login;
+import GUI.login;
 
 public class admin extends user{
 	
@@ -21,7 +21,7 @@ public class admin extends user{
     	private PreparedStatement ps1 = null;
     	private PreparedStatement ps2 = null;
     	
-		public void add_awards(award obj)
+		public void add_awards(awards obj)
 		{
 			String id,name,category,sponsor,amount;
 			id = obj.award_id;
@@ -32,7 +32,7 @@ public class admin extends user{
 			try 
 	    	{
 	    		Class.forName("org.postgresql.Driver");
-	    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPS", "postgres", "1");
+	    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
 	    	}
 	    	catch (Exception e)
 	    	{
@@ -62,7 +62,7 @@ public class admin extends user{
 			try 
 	    	{
 	    		Class.forName("org.postgresql.Driver");
-	    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPS", "postgres", "1");
+	    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
 	    	}
 	    	catch (Exception e)
 	    	{
@@ -92,7 +92,7 @@ public class admin extends user{
 			try 
 	    	{
 	    		Class.forName("org.postgresql.Driver");
-	    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPS", "postgres", "1");
+	    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
 	    	}
 	    	catch (Exception e)
 	    	{
@@ -131,7 +131,7 @@ public class admin extends user{
 			try 
 	    	{
 	    		Class.forName("org.postgresql.Driver");
-	    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPS", "postgres", "1");
+	    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
 	    	}
 	    	catch (Exception e)
 	    	{

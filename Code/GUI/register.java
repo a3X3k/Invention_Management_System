@@ -1,4 +1,4 @@
-package sample;
+package GUI;
 
 import java.lang.String;
 import java.sql.Connection;
@@ -202,7 +202,7 @@ public class register implements ActionListener {
         try 
     	{
     		Class.forName("org.postgresql.Driver");
-    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPS", "postgres", "1");
+    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
     	}
     	catch (Exception e)
     	{
@@ -358,7 +358,6 @@ public class register implements ActionListener {
     		{
     			register_frame.setVisible(false);
     			new admin();
-    			login.flag=0;
     		}
     		else if(login.flag==0)
     		{

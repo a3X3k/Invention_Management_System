@@ -1,4 +1,4 @@
-package sample;
+package GUI;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -58,7 +58,7 @@ public class results implements ActionListener {
     	try 
     	{
     		Class.forName("org.postgresql.Driver");
-    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPS", "postgres", "1");
+    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
     		st = con.createStatement();
 			String query = "SELECT INVENTION_ID,INVENTION_NAME,NAME,AWARD_NAME,AWARD_CATEGORY,YEAR_OF_INVENTION,T.MARKS FROM INVENTS NATURAL JOIN INVENTOR NATURAL JOIN INVENTION NATURAL JOIN AWARDS NATURAL JOIN (SELECT MAX(MARKS) AS MARKS,AWARD_CATEGORY FROM INVENTION GROUP BY AWARD_CATEGORY) AS T ORDER BY AWARD_CATEGORY;";
 			rs = st.executeQuery(query);

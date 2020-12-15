@@ -1,4 +1,4 @@
-package sample;
+package GUI;
 import java.awt.Color;
 import java.awt.Font;
 
@@ -86,7 +86,7 @@ public class admin implements ActionListener{
 	}
 	
 	features.admin obj ;
-	features.award obj_award ;
+	features.awards obj_award ;
 	features.panel obj_panel;
 	
 	admin(){
@@ -94,7 +94,7 @@ public class admin implements ActionListener{
 		login.flag=1;
 		
 		obj = new features.admin();
-		obj_award = new features.award();
+		obj_award = new features.awards();
 		obj_panel = new features.panel();
 		admin_frame = new JFrame("ADMIN");
 		admin_panel = new JPanel();
@@ -152,9 +152,9 @@ public class admin implements ActionListener{
 	    view_awards.setBounds(360, 600, 200, 30);
 	    view_inventions.setBounds(570, 600, 200, 30);
 	    
-	    declare_final_nomination.setBounds(150, 650, 250, 30);
-	    declare_result.setBounds(520, 650, 250, 30);
-	    logout.setBounds(50, 370, 100, 30);
+	    declare_final_nomination.setBounds(150, 650, 200, 30);
+	    declare_result.setBounds(360, 650, 200, 30);
+	    logout.setBounds(570, 650, 200, 30);
 
 	    add_jurymember.setBackground(Color.BLACK);
 	    add_jurymember.setForeground(Color.WHITE);
@@ -273,11 +273,13 @@ public class admin implements ActionListener{
 	    view_awards.addActionListener(this);
 	    declare_result.addActionListener(this);
 	    declare_final_nomination.addActionListener(this);
-	
+		
+	    
+	    
 	    try 
     	{
     		Class.forName("org.postgresql.Driver");
-    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPS", "postgres", "1");
+    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
     	}
     	catch (Exception e)
     	{

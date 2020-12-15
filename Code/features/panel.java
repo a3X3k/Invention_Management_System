@@ -1,6 +1,6 @@
 package features;
 
-import sample.*;
+import GUI.*;
 
 public class panel {
 	

@@ -9,7 +9,7 @@ import java.sql.Statement;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-import sample.*;
+import GUI.*;
 
 public class inventor extends user{
 	
@@ -32,7 +32,7 @@ public class inventor extends user{
 		try 
     	{
     		Class.forName("org.postgresql.Driver");
-    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/OOPS", "postgres", "1");
+    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
     	}
     	catch (Exception e)
     	{
@@ -48,7 +48,7 @@ public class inventor extends user{
 			PreparedStatement ps1;
 			try 
 			{
-				ps = con.prepareStatement("INSERT INTO INVENTION VALUES(?,?,?,?,?,0);");
+				ps = con.prepareStatement("INSERT INTO INVENTION VALUES(?,?,?,?,?);");
 				ps.setString(1, id);
 				ps.setString(2, name);
 				ps.setString(3, award);
@@ -78,4 +78,6 @@ public class inventor extends user{
 	{
 		new results();
 	}
+
+
 }
