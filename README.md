@@ -1,5 +1,3 @@
-## GROUP 10
-
 ## INVENTION MANAGEMENT SYSTEM
 
 - The Invention Management System Database is made to store,
@@ -619,5 +617,3 @@ prep.executeUpdate();
 - Rahan Manoj – AM.EN.U4CSE19144
 - Harsha Sathish – AM.EN.U4CSE19123
 - Arvind Kumar K – AM.EN.U4CSE19109
-
-# **THANKYOU!!!**
