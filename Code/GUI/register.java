@@ -202,7 +202,7 @@ public class register implements ActionListener {
         try 
     	{
     		Class.forName("org.postgresql.Driver");
-    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
+    		con = DriverManager.getConnection("<JDBC Link>", "<Username>", "<Password>");
     	}
     	catch (Exception e)
     	{
