@@ -62,7 +62,7 @@ public class view_inventions implements ActionListener {
     	try 
     	{
     		Class.forName("org.postgresql.Driver");
-    		con = DriverManager.getConnection("jdbc:postgresql://localhost:5432/invention_management_system", "postgres", "rahandbms");
+    		con = DriverManager.getConnection("<JDBC Link>", "<Username>", "<Password>");
     		st = con.createStatement();
 			String query = "SELECT * FROM INVENTION;";
 			rs = st.executeQuery(query);
