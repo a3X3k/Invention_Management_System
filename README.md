@@ -14,8 +14,12 @@
 
 <img src="https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/1.png" alt="drawing"/>
 
+</div>
+
 <br/>
-        
+    
+<div align="center">
+      
 | SI | Table Of Contents |
 |:-----:| :-----: |
 | 1 | [`Use Case Diagram`]() |
@@ -28,5 +32,6 @@
 | 8 | [`Composition`]() |
 | 9 | [`JDBC`]() |
 | 10 | [`Swing`]() |
-      
+
 </div>
+      
