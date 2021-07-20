@@ -1,8 +1,20 @@
 <div align= "center">
       
-# [`Invention Manangement System`](#)
+# [`Invention Management System`](#)
 
 </div>
+
+## What is this project?
+
+- The Invention Management System Database is made to store,
+
+<ol>
+
+- Invention details
+- Inventor details
+- Awards Received
+
+</ol>
 
 ### Done By,
 
