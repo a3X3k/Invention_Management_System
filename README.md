@@ -16,16 +16,16 @@
 
         
 | Table Of Contents |
-| :-----: |
-| [`Use Case Diagram`]() |
-| [`UML/Class Diagram`]() |
-| [`Association`]() |
-| [`Realization`]() |
-| [`Generelization`]() |
-| [`Dependency`]() |
-| [`Aggregation`]() |
-| [`Composition`]() |
-| [`JDBC`]() |
-| [`Swing`]() |
+|1| :-----: |
+|2| [`Use Case Diagram`]() |
+|3| [`UML/Class Diagram`]() |
+|4| [`Association`]() |
+|5| [`Realization`]() |
+|6| [`Generelization`]() |
+|7| [`Dependency`]() |
+|8| [`Aggregation`]() |
+|9| [`Composition`]() |
+|10| [`JDBC`]() |
+|11 | [`Swing`]() |
       
 </div>
