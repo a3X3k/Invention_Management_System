@@ -15,17 +15,17 @@
 <img src="https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/1.png" alt="drawing"/>
 
         
-| | Table Of Contents |
-|1| :-----: |
-|2| [`Use Case Diagram`]() |
-|3| [`UML/Class Diagram`]() |
-|4| [`Association`]() |
-|5| [`Realization`]() |
-|6| [`Generelization`]() |
-|7| [`Dependency`]() |
-|8| [`Aggregation`]() |
-|9| [`Composition`]() |
-|10| [`JDBC`]() |
-|11 | [`Swing`]() |
+| SI | Table Of Contents |
+|:-----:| :-----: |
+| 1 | [`Use Case Diagram`]() |
+| 2 | [`UML/Class Diagram`]() |
+| 3 | [`Association`]() |
+| 4 | [`Realization`]() |
+| 5 | [`Generelization`]() |
+| 6 | [`Dependency`]() |
+| 7 | [`Aggregation`]() |
+| 8 | [`Composition`]() |
+| 9 | [`JDBC`]() |
+| 10 | [`Swing`]() |
       
 </div>
