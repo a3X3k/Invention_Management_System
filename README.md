@@ -18,7 +18,7 @@
 | Table Of Contents |
 | :-----: |
 | [`Use Case Diagram`]() |
-| [`UML / Class Diagram`]() |
+| [`UML/Class Diagram`]() |
 | [`Association`]() |
 | [`Realization`]() |
 | [`Generelization`]() |
