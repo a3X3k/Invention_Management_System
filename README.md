@@ -1,7 +1,5 @@
 <div align= "center">
       
-# [`Invention Management System`](#)
-      
 ![](https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/2%2Cpng.png)
 
 </div>
