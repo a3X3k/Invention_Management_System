@@ -1,6 +1,6 @@
 <div align="center">
 
-      <img src="https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/2%2Cpng.png" alt="drawing" height="350"/>
+<img src="https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/2%2Cpng.png" alt="drawing"/>
 
 </div>
       
@@ -12,7 +12,7 @@
 
 <div align="center">
 
-      <img src="https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/1.png" alt="drawing" height="350"/>
+<img src="https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/1.png" alt="drawing" height="450"/>
 
 </div>
 
