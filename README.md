@@ -1,24 +1,13 @@
 <div align= "center">
       
 # [`Invention Management System`](#)
+      
+![](https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/2%2Cpng.png)
 
 </div>
 
-## What is this project?
+# What is this project?
 
-- The Invention Management System Database is made to store,
+- The Invention Management System Database is made to store Invention details, Inventor details, Awards Received etc. 
 
-<ol>
-
-- Invention details
-- Inventor details
-- Awards Received
-
-</ol>
-
-### Done By,
-
-- S. Abhishek - AM.EN.U4CSE19147
-- Rahan Manoj – AM.EN.U4CSE19144
-- Harsha Sathish – AM.EN.U4CSE19123
-- Arvind Kumar K – AM.EN.U4CSE19109
+![](https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/1.png)
