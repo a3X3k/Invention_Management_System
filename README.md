@@ -20,7 +20,7 @@
     
 <div align="center">
       
-| SI | Table Of Contents |
+| Topic | Table Of Contents |
 |:-----:| :-----: |
 | 1 | [`Use Case Diagram`]() |
 | 2 | [`UML/Class Diagram`]() |
