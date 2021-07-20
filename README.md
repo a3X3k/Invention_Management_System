@@ -15,7 +15,7 @@
 <img src="https://github.com/a3X3k/Invention_Management_System/blob/main/Assets/1.png" alt="drawing"/>
 
         
-| Table Of Contents |
+| | Table Of Contents |
 |1| :-----: |
 |2| [`Use Case Diagram`]() |
 |3| [`UML/Class Diagram`]() |
