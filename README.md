@@ -12,7 +12,6 @@
 - An invention can get many awards. A database is maintained to store details about the different awards that exist world-wide in each category. 
 - Awards can also receive nominations for which the jury’s verdict is final. 
 - The list of jury members can also be maintained. 
-- Design a database system for the inventors application to maintain all the data conveniently and efficiently.
 
 <br/>
 
